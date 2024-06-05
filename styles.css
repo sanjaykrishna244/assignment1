@@ -1,0 +1,200 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar{
+    position: fixed;
+    margin-left: 300px;
+}
+
+header .logo img {
+    height: 50px;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 1rem;
+}
+
+.navbar ul li a,
+.go-to-fp {
+    color: white;
+    background-color: #555;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-family: Oswald;
+}
+
+.navbar ul li a:hover,
+.go-to-fp:hover{
+    border-radius: 10px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding: 0.5rem 0.5rem;
+} 
+
+main {
+    margin-top: 100px; /* Adjust based on header height */
+    padding: 2rem;
+}
+
+section {
+    padding: 2rem 0;
+    border-bottom: 1px solid #ccc;
+}
+
+section h1 {
+    font-family: Oswald;
+    padding-top: 50px;
+    font-size: xx-large;
+}
+
+.intro{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.intro>img{
+    margin-left: 250px;
+}
+
+.intro p::first-line{
+    font-size: xx-large;
+}
+
+#section2{
+    background-color: antiquewhite;
+    border: 10px groove antiquewhite;
+}
+
+.play-lists img{
+    vertical-align: middle;
+}
+.play-lists p{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#section2 hr{
+    margin-bottom: 50px;
+}
+
+#section3 input{
+    font-family: Oswald;
+    font-size:x-large ;
+    width: 500px;
+    padding-left: 20px;
+    height: 60px;
+    vertical-align: middle;
+    border-radius: 30px;
+}
+#section3 input:hover{
+    box-shadow: 2px 2px 5px black, -2px -2px 5px black;
+}
+#section3 img{
+    vertical-align: middle;
+    margin-left: -60px;
+}
+#section3 img:hover{
+    opacity: 0.75;
+}
+
+.reviews img{
+    float: left;
+    vertical-align: middle;
+}
+.reviews p{
+    display: inline-block;
+    width: 80%;
+    vertical-align: middle;
+    font-family: Oswald;
+    margin-left: 20px;
+}
+.reviews{
+    height: 200px;
+    background-color: antiquewhite;
+    width: 75%;
+    padding: 0.25rem 5rem;
+    margin-top: 1rem;
+}
+.symbols ul,
+.footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+.symbols ul li,
+.footer ul li {
+    margin-left: 0.1rem;
+    color: white;
+}
+
+.footer ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-family: Oswald;
+}
+.footer ul li a:hover{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding: 0.5rem 0.5rem;
+    background-color: #555;
+} 
+footer{
+    background-color: #333333;
+    height: 150px; display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+form input{
+    font-family: Oswald;
+    font-size:x-large ;
+    width: 200px;
+    padding-left: 20px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 15px;
+    display: block;
+}
+form textarea{
+    display: block;
+    margin-top: 10px;
+    border-radius: 15px;
+    border-width: 2px;
+    padding-left: 10px;
+    font-family: Oswald;
+    font-size: large;
+}
+#sub{
+    height: 35px;
+    align-content: center;
+}
